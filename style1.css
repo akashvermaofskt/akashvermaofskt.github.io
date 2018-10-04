@@ -15,22 +15,20 @@ body{
     min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
 }
 .carousel .item img{
+    display: block;
     margin: 0 auto; /* Align slide image horizontally center */
+    margin-top: 50px;
     max-height: 400px;
-    min-height: 400px;
-    padding: 100px;
+    //min-height: 400px;
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .bs-example{
   margin: 20px;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    max-height: 225px;
-}
 
 HR{
   border: :solid 2px black;
