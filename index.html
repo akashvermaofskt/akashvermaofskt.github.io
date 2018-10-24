@@ -79,14 +79,16 @@
 <div class="well container-fluid" id="cm">
   <div class="row">
     <div class="col-md-6" class="text-center">
-  <p class="text-center">Contact me:<BR>
-  <label><input type="text" placeholder="Name"></label><BR>
-    <label><input type="text" placeholder="Email Address"></input></label><BR>
-   <label> <input type="text" placeholder="Phone Number"></input></label><BR> 
-   <label><textarea  placeholder="Message"></textarea></label><BR>
-    <button class="btn btn-primary">Send</button</p>
-    
-      </div>
+        <form action="mail.php" method="POST">
+            <p class="text-center">Contact me:<BR>
+                <label><input name="name" type="text" placeholder="Name"></label><BR>
+                <label><input name="email" type="text" placeholder="Email Address"></label><BR>
+                <label> <input name="phone" type="text" placeholder="Phone Number"></label><BR> 
+                <label><textarea name="msg"  placeholder="Message"></textarea></label><BR>
+                <input class="btn btn-primary" type="submit" value="Send">
+            </p>
+        </form>
+     </div>
       <div class="col-md-6" id="ct" >
         <p class="text-center" ><STRONG>Want to get in touch with me? Be it to request more info about myself or my experience, random questions about the universe and the meaning of life.. just feel free to drop me a line anytime.
 I promise to reply A.S.A.P.
